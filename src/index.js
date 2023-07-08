@@ -9,8 +9,8 @@ const gallery = document.querySelector('.gallery');
 const marker = document.querySelector('.marker');
 
 const options = {
-  rootMargin: '0px',
-  tthreshold: 1
+rootMargin: '0px',
+threshold: 1
 }
 const observer = new IntersectionObserver(observerCallback, options);
 

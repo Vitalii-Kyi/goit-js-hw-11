@@ -1,8 +1,8 @@
 export default function smoothScroll(gallery, step) {
-  const { height: cardHeight } =
+const { height: cardHeight } =
     gallery.firstElementChild.getBoundingClientRect();
-  window.scrollBy({
+    window.scrollBy({
     top: cardHeight * step,
     behavior: 'smooth',
-  });
+    });
 };
