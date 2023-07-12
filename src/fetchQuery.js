@@ -8,6 +8,7 @@ async function fetchQuery (query, page) {
     const params = new URLSearchParams ({
         image_type: 'photo',
         orientation: 'horizontal',
+        safesearch: true,
         per_page: PER_PAGE,
         page,
     });
